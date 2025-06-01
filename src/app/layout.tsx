@@ -1,11 +1,8 @@
+// App Layout
 import Router from "./router";
 
 function Layout() {
-  return (
-    <>
-      <Router />
-    </>
-  );
+  return <Router />;
 }
 
 export default Layout
