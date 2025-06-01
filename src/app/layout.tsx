@@ -2,7 +2,11 @@
 import Router from "./router";
 
 function Layout() {
-  return <Router />;
+  return (
+    <div className="flex justify-center py-20">
+      <Router />
+    </div>
+  );
 }
 
-export default Layout
+export default Layout;
