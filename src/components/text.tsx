@@ -24,7 +24,7 @@ const textVariants = cva("font-sans", {
       hero: "text-6xl font-bold",
       title: "text-4xl font-semibold",
       subtitle: "text-2xl",
-      body: "text-lg text-gray-900",
+      body: "text-lg",
       highlight: "text-lg font-semibold",
       caption: "text-sm text-gray-500",
     },
