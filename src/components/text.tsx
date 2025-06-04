@@ -9,7 +9,7 @@ const Text = React.forwardRef<HTMLParagraphElement, TextProps>(
   ({ className, variant, ...props }, ref) => (
     <p
       ref={ref}
-      className={cn(textVariants({ variant, className }))}
+      className={cn(textVariants({ variant }), className)}
       {...props}
     />
   )
@@ -21,11 +21,12 @@ export default Text;
 const textVariants = cva("font-sans", {
   variants: {
     variant: {
-      title: "text-3xl font-bold",
-      subtitle: "text-xl text-gray-700",
-      body: "text-base text-gray-900",
+      hero: "text-6xl font-bold",
+      title: "text-4xl font-semibold",
+      subtitle: "text-2xl",
+      body: "text-lg text-gray-900",
+      highlight: "text-lg font-semibold",
       caption: "text-sm text-gray-500",
-      highlight: "text-base text-red-500 font-semibold",
     },
   },
 });
