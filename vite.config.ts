@@ -11,7 +11,6 @@ export default defineConfig({
       "@assets": "/src/assets",
       "@utils": "/src/utils",
       "@components": "/src/components",
-      "@app": "/src/app",
     },
   },
   plugins: [react(), tailwindcss()],
