@@ -1,10 +1,15 @@
-// App Functions
+// Main application component
+import { Route, Routes } from "react-router-dom";
 import "./index.css";
-import Layout from "./app/layout";
-
 
 function App() {
-  return <Layout />;
+  return (
+    <>
+      <Routes>
+        <Route path="/" element={<></>} />
+      </Routes>
+    </>
+  );
 }
 
 export default App;
