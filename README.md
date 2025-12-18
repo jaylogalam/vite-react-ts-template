@@ -1,25 +1,33 @@
 # Vite ReactTS Project Template
 This is a React + TypeScript project built using **Vite**. It includes modern libraries for state management, routing, styling, and developer tools.
 
----
-
 ## 📖 Documentation
 * [Vite Configuration Guide](.docs/VITE.md) - Details on our build setup.
-* [Update Logs](.docs/UPDATE.md) - History of recent changes and migrations.
 
----
+
 
 ## Project Setup
 **Scripts:**
-- `dev` – Runs the development server using Vite.
-- `build` – Compiles TypeScript and builds the production bundle.
-- `lint` – Runs ESLint for code quality checks.
-- `preview` – Previews the production build.
+- `npm run dev` – Runs the development server using Vite.
+- `npm run build` – Compiles TypeScript and builds the production bundle.
+- `npm run lint` – Runs ESLint for code quality checks.
+- `npm run preview` – Previews the production build.
 
----
+## Recommended Usage
+1. Update dependencies:
+```bash
+npx npm-check-updates -u
+```
+2. Install dependencies:
+```bash
+npm install
+```
+
+
 
 ## Dependencies
 These packages are required to run the project:
+
 ### Core Libraries
 - **react** & **react-dom** – The core React library and DOM renderer.
 - **react-router-dom** – Routing library for React apps.
@@ -30,7 +38,7 @@ These packages are required to run the project:
 - **class-variance-authority** – Helps manage complex Tailwind CSS class variants.
 - **tailwind-merge** – Merges Tailwind CSS classes intelligently.
 
----
+
 
 ## DevDependencies
 These packages are used for development, type checking, linting, and build tooling:
@@ -53,23 +61,3 @@ These packages are used for development, type checking, linting, and build tooli
 - **eslint-plugin-react-refresh** – Supports React Fast Refresh in ESLint.
 - **typescript-eslint** – ESLint plugin for TypeScript.
 - **globals** – Provides predefined global variables for linting.
-
----
-
-## Recommended Usage
-1. Install dependencies:
-```bash
-npm install
-```
-2. Start development server:
-```bash
-npm run dev
-```
-3. Build for production:
-```bash
-npm run build
-```
-4. Preview production build:
-```bash
-npm run preview
-```
