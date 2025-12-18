@@ -3,6 +3,12 @@ This is a React + TypeScript project built using **Vite**. It includes modern li
 
 ---
 
+## 📖 Documentation
+* [Vite Configuration Guide](.docs/VITE.md) - Details on our build setup.
+* [Update Logs](.docs/UPDATE.md) - History of recent changes and migrations.
+
+---
+
 ## Project Setup
 **Scripts:**
 - `dev` – Runs the development server using Vite.
