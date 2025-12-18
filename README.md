@@ -1,4 +1,4 @@
-# Vite Project
+# Vite ReactTS Project Template
 This is a React + TypeScript project built using **Vite**. It includes modern libraries for state management, routing, styling, and developer tools.
 
 ---
