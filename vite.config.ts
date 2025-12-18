@@ -14,6 +14,7 @@ export default defineConfig({
       "@assets": "/src/assets",
       "@components": "/src/components",
       "@features": "/src/features",
+      "@pages": "/src/pages",
       "@utils": "/src/utils",
     },
   },
