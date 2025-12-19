@@ -25,29 +25,25 @@ npm install
 
 
 
-## Dependencies
-These packages are required to run the project:
-
 ### Core Libraries
+- **class-variance-authority** – Helps manage complex Tailwind CSS class variants.
+- **clsx** – Utility for conditionally joining classNames.
 - **react** & **react-dom** – The core React library and DOM renderer.
 - **react-router-dom** – Routing library for React apps.
-- **zustand** – Lightweight state management library.
+- **tailwind-merge** – Merges Tailwind CSS classes intelligently.
 - **tanstack/react-query** – Data fetching and caching library.
 - **tanstack/react-query-devtools** – Devtools for React Query.
-- **clsx** – Utility for conditionally joining classNames.
-- **class-variance-authority** – Helps manage complex Tailwind CSS class variants.
-- **tailwind-merge** – Merges Tailwind CSS classes intelligently.
-
+- **zustand** – Lightweight state management library.
 
 
 ## DevDependencies
 These packages are used for development, type checking, linting, and build tooling:
 
 ### Build & Tooling
+- **types/node**, **types/react**, **types/react-dom** – Type definitions for Node and React.
+- **typescript** – TypeScript language support.
 - **vite** – Fast frontend build tool.
 - **vitejs/plugin-react** – Enables React support in Vite.
-- **typescript** – TypeScript language support.
-- **types/node**, **types/react**, **types/react-dom** – Type definitions for Node and React.
 
 ### Styling
 - **tailwindcss** – Utility-first CSS framework.
@@ -59,5 +55,5 @@ These packages are used for development, type checking, linting, and build tooli
 - **eslint/js** – ESLint core rules for JavaScript.
 - **eslint-plugin-react-hooks** – Enforces best practices for React Hooks.
 - **eslint-plugin-react-refresh** – Supports React Fast Refresh in ESLint.
-- **typescript-eslint** – ESLint plugin for TypeScript.
 - **globals** – Provides predefined global variables for linting.
+- **typescript-eslint** – ESLint plugin for TypeScript.
